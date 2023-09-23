@@ -12,12 +12,12 @@ export default function Home() {
   const { setCat } = useContext(CategoryContext);
   setCat(null);
   const items = [
-    "Fruits & Vegetables",
-    "Dairy",
-    "Daily Essentials",
-    "Beverages",
-    "Personal Care",
-    "Cleaning & Household",
+    "Ceramics",
+    "Bamboo",
+    "Wood",
+    "Jute",
+    "Cloth",
+    "Tetra Packs",
   ];
 if(searchParams?.has("session_id")){
 const a = async()=>{
