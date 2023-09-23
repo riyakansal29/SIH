@@ -27,12 +27,12 @@ function Navbar() {
   const { setCat, cat } = useContext(CategoryContext);
   const navigate = useNavigate();
   const items = [
-    "Fruits & Vegetables",
-    "Dairy",
-    "Daily Essentials",
-    "Beverages",
-    "Personal Care",
-    "Cleaning & Household"
+    "Ceramics",
+    "Bamboo",
+    "Wood",
+    "Jute",
+    "Cloth",
+    "Tetra Packs",
   ];
   // const Search = styled()(({ theme }) => ({
   //   variant: "outlined",
